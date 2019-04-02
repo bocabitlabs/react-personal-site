@@ -1,33 +1,81 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#aboutme-section {
+    font-size: 19px;
+}
+
+.about-text {
+    position: relative;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+.about-icon {
+    font-size: 24px;
+    position: absolute;
+    left: -40px;
+    margin-top: 5px;
+}
+
+#aboutme-section p:last-child {
+    margin-bottom: 0;
+}
+
+#contactme-section {
+    font-size: 19px;
+    margin-top: 60px;
+}
+
+#contactme-section h1 {
+    font-size: 50px;
+}
+
+#contact-form p {
+    margin-bottom: 10px;
+}
+
+#contact-form .form-control {
+    margin-bottom: 15px;
+}
+
+#paypalbtn {
+    text-align: center;
+}
+
+#paypalbtn a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: arial;
 }
