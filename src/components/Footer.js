@@ -56,18 +56,6 @@ class Footer extends Component {
 
                 <li>
                   <a
-                    href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#x72;&#101;&#x6e;&#101;&#x40;&#x62;&#x6f;&#x63;&#x61;&#98;&#105;&#x74;&#x2e;&#99;&#x6f;&#109;"
-                    title="Email me"
-                  >
-                    <span className="fa-stack fa-lg">
-                      <i className="fa fa-circle fa-stack-2x" />
-                      <i className="fa fa-envelope fa-stack-1x fa-inverse" />
-                    </span>
-                  </a>
-                </li>
-
-                <li>
-                  <a
                     href="https://linkedin.com/in/rené-fernández-sánchez-73870226"
                     title="LinkedIn"
                   >
