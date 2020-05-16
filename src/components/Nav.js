@@ -40,7 +40,7 @@ function Nav(props) {
             <a href="https://renefernandez.com">
               <img
                 className="avatar-img"
-                src="https://static.renefernandez.com/static/img/avatar-icon.png"
+                src="/img/avatar-icon.png"
                 alt="Avatar"
               />
             </a>
