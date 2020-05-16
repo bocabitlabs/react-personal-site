@@ -5,7 +5,7 @@ function Carousel() {
     <div
       id="header-big-imgs"
       data-num-img="5"
-      data-img-src-1="%/img/somiedo.jpg"
+      data-img-src-1="/img/somiedo.jpg"
       data-img-desc-1="Somiedo, Asturias"
       data-img-src-2="/img/luarca.jpg"
       data-img-desc-2="Luarca, Asturias"
