@@ -1,0 +1,29 @@
+{
+  "title": "Hola!, I'm René",
+  "subtitle": "Welcome to my personal website",
+  "nav": {
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "template_by": "Template by "
+  },
+  "previously": {
+    "text": "Currently I am working  as  <strong><span itemProp=\"jobtitle\">Web Engineer</span></strong> at",
+    "text2": "(Switzerland). Previously I worked as a <strong>freelance web developer</strong>, building amazing projects for several companies and also on a startup, Adama Web)."
+  },
+  "graduation": {
+    "text": "I obtained my <strong>Master Degree in Web Engineering</strong> and my <strong>Bachelor in Computer Science</strong> from the University of Oviedo. My Masters thesis was ",
+    "text2": "\", obtaining the grade of \"Excelent\"."
+  },
+  "development": "I enjoy coding and managing the lifecycle of projects, materializing my ideas on fully-working applications. <strong>I love to build useful and cool stuff!</strong>.",
+  "hobbies": "I like to go hiking, taking pictures, weekend travels, playing video games and also watching TV shows.",
+  "projects": "Puedes echar un vista a algunos de mis proyectos anteriores en la página de proyectos (Realmente solo aquellos de los que estoy más orgulloso :)).",
+  "about": "Growing up in Asturias, Spain, I have always been a <strong>technology enthusiastic</strong>, so I decided to study computer science. After finishing my studies I moved to Geneva, Switzerland, to continue my career on the IT field.",
+  "contact": {
+    "title": "Contact",
+    "text": "If you want to contact me you can contact me though ",
+    "text2": "or find me on",
+    "text3": ". Do not hesitate to send a message, I am always open to new and exciting opportunities!"
+  }
+}

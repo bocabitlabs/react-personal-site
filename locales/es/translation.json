@@ -1,0 +1,29 @@
+{
+  "title": "Hola!, Soy René",
+  "subtitle": "Bienvenido a mi página personal",
+  "nav": {
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "template_by": "Plantilla por"
+  },
+  "previously": {
+    "text": "Actualmente trabajo como <strong><span itemProp=\"jobtitle\">Ingeniero Web</span></strong> en el",
+    "text2": "(Suiza). Anteriormente he trabajado como <strong>desarrollador web freelance</strong>, construyendo proyectos para diversos clientes y también en una startup, Adama Web."
+  },
+  "graduation": {
+    "text": "He obtenido mi <strong>Master en Ingeniería Web</strong> y mi <strong>Ingeniería Técnica Informática</strong> en la Universidad de Oviedo. Mi Proyecto de Fin de Master fue",
+    "text2": ", con el que obtuve una Matrícula de Honor."
+  },
+  "development": "Me gusta programar y gestionar todo el ciclo de vida de aplicaciones, materializando mis ideas en aplicaciones completamente funcionales. <strong>¡Me encanta crear cosas útiles y molonas!</strong>.",
+  "hobbies": "Me gusta el senderismo, la fotografías, los viajes de fin de semana, jugar a videojuegos y escribir en mi blog.",
+  "projects": "Puedes echar un vista a algunos de mis proyectos anteriores en la página de proyectos (Realmente solo aquellos de los que estoy más orgulloso :)).",
+  "about": "Crecí en Asturias, España. Siempre he sido un <strong>entusiasta de la tecnología</strong>, así que decidí estudiar informática. Después de finalizar mis estudios me mudé a Ginebra, Suiza, para continuar mi carrera profesional en IT.",
+  "contact": {
+    "title": "Contacto",
+    "text": "Si quieres ponerte en contacto conmigo, puedes contactarme a través de ",
+    "text2": "o encontrarme en",
+    "text3": ". ¡No dudes en mandarme un mensaje, siempre estoy abierto a nuevas y emocionantes oportunidades!"
+  }
+}
