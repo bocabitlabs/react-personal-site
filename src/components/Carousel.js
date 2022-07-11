@@ -1,21 +1,31 @@
 import React from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { Carousel as CarouselResponsive } from 'react-responsive-carousel';
 
 function Carousel() {
   return (
-    <div
-      id="header-big-imgs"
-      data-num-img="5"
-      data-img-src-1="/img/somiedo.jpg"
-      data-img-desc-1="Somiedo, Asturias"
-      data-img-src-2="/img/luarca.jpg"
-      data-img-desc-2="Luarca, Asturias"
-      data-img-src-3="/img/ginebra.jpg"
-      data-img-desc-3="Geneva, Switzerland"
-      data-img-src-4="/img/aviles.jpg"
-      data-img-desc-4="Avilés, Asturias"
-      data-img-src-5="/img/londres.jpg"
-      data-img-desc-5="London, UK"
-    />
+    <CarouselResponsive>
+      <div>
+        <img src="/img/somiedo.jpg" />
+        <p className="legend">Somiedo, Asturias</p>
+      </div>
+      <div>
+        <img src="/img/luarca.jpg" />
+        <p className="legend">Luarca, Asturias</p>
+      </div>
+      <div>
+        <img src="/img/ginebra.jpg" />
+        <p className="legend">Geneva, Switzerland</p>
+      </div>
+      <div>
+        <img src="/img/aviles.jpg" />
+        <p className="legend">Avilés, Asturias</p>
+      </div>
+      <div>
+        <img src="/img/londres.jpg" />
+        <p className="legend">London, UK</p>
+      </div>
+    </CarouselResponsive>
   );
 }
 
