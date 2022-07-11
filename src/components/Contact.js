@@ -1,9 +1,9 @@
 import React from 'react';
-import { withTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 
-function Contact(props) {
-  const { t } = props;
+function Contact() {
+  const { t } = useTranslation();
 
   return (
     <div id="contactme-section">
@@ -20,8 +20,4 @@ function Contact(props) {
   );
 }
 
-Contact.propTypes = {
-  t: PropTypes.func.isRequired
-};
-
-export default withTranslation()(Contact);
+export default Contact;
