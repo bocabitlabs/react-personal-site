@@ -1,5 +1,6 @@
 import React from 'react';
-import { Trans, withTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
+import Carousel from './Carousel';
 import Contact from './Contact';
 
 function MainContent() {
@@ -7,6 +8,7 @@ function MainContent() {
     <div className="container" role="main">
       <div className="row">
         <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <Carousel />
           <div id="aboutme">
             <div className="about-text">
               <span className="fa fa-briefcase about-icon" />
@@ -61,4 +63,4 @@ function MainContent() {
   );
 }
 
-export default withTranslation()(MainContent);
+export default MainContent;

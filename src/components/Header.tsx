@@ -1,9 +1,8 @@
 import React from 'react';
-import { withTranslation } from 'react-i18next';
-import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 
-function Header(props) {
-  const { t } = props;
+function Header() {
+  const { t } = useTranslation();
 
   return (
     <header className="header-section has-img">
@@ -25,8 +24,4 @@ function Header(props) {
   );
 }
 
-Header.propTypes = {
-  t: PropTypes.func.isRequired
-};
-
-export default withTranslation()(Header);
+export default Header;
