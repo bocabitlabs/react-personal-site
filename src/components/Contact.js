@@ -11,9 +11,9 @@ function Contact(props) {
 
       <p>
         {t('contact.text')}{' '}
-        <a href="https://twitter.com/the_rocker">LinkedIn</a>{' '}
+        <a href="https://www.linkedin.com/in/rene-fernandez/" title="Rene Fernandez in LinkedIn">LinkedIn</a>{' '}
         {t('contact.text2')}{' '}
-        <a href="https://twitter.com/the_rocker">Twitter</a>{' '}
+        <a href="https://x.com/the_rocker" title="Rene Fernandez in X">X</a>{' '}
         {t('contact.text3')}
       </p>
     </div>
